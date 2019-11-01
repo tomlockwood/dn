@@ -52,9 +52,17 @@ If you want search, my recommendation is that you install a tool like `ripgrep`,
 
 # Setup
 
+1. `mkdir ~/dn`
+
+2. 
+For bash:
 ```
-mkdir ~/dn
+cat dn >> ~/.bashrc
+```
+
+For zsh:
+```
 cat dn >> ~/.zshrc
 ```
 
-Replace .zshrc with the config file for your shell of choice!
+Replace with the config file for your shell of choice!
