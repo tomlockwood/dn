@@ -4,7 +4,9 @@
 
 # Usage
 
-`dn` writes a bullet-pointed string to a file with today's date in YYYY-MM-DD format in a `~/dn/` folder.
+`dn` writes a bullet-pointed string to a file with today's date in YYYY-MM-DD format in the `~/dn/` folder.
+
+`dno` does the same, but the first argument is the filename.
 
 `dnview` displays those files.
 
