@@ -6,24 +6,33 @@
 
 `dn` writes a bullet-pointed string to a file with today's date in YYYY-MM-DD format in the `~/dn/` folder.
 
-`dno` does the same, but the first argument is the filename.
+`dno` does the same, but the first argument is the filename.  This can be used for future notes i.e. `dno 2030-10-01 "I died"`.
 
-`dnview` displays those files.
+`dnt` displays today's notes.
+
+`dnview` displays all files, or when an argument like `2019-10` is passed, `~/dn/2019-10*`.
 
 # Example
 
 ```
 $ dn "The same thing we do every night"
+
 $ dnview
 2019-11-01
  * Made dn
 2019-11-02
  * The same thing we do every night
+
 $ dnview 2019-11-02
 2019-11-02
  * The same thing we do every night
 
+$ dnt
+2019-11-02
+ * The same thing we do every night
+
 $ dno 1977-10-28 "Saw star wars"
+
 $ dnview
 1977-10-28
  * Saw star wars
@@ -31,6 +40,7 @@ $ dnview
  * Made dn
 2019-11-02
  * The same thing we do every night
+
 $ dnview 2019-11
 2019-11-01
  * Made dn
