@@ -1,0 +1,13 @@
+
+# Daily Notes Aliases
+dn() {
+  echo " * $1" >> ~/dn/$(date "+%Y-%m-%d")
+}
+
+dno() {
+  echo " * $2" >> ~/dn/$1
+}
+
+dnview() {
+  find ~/dn/$1* -type f -exec basename {} \; -exec cat {} \;
+}
