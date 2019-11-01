@@ -54,15 +54,7 @@ If you want search, my recommendation is that you install a tool like `ripgrep`,
 
 1. `mkdir ~/dn`
 
-2. 
-For bash:
-```
-cat dn >> ~/.bashrc
-```
-
-For zsh:
-```
-cat dn >> ~/.zshrc
-```
+2. For bash: `cat dn >> ~/.bashrc`
+2. For zsh: `cat dn >> ~/.zshrc`
 
 Replace with the config file for your shell of choice!
