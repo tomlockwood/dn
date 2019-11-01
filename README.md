@@ -1,5 +1,7 @@
 # dn - Daily notes command line tool
 
+`dn` is a simple command line tool to help keep notes on what you did every day and what's coming up.
+
 # Usage
 
 `dn` writes a bullet-pointed string to a file with today's date in YYYY-MM-DD format in a `~/dn/` folder.
