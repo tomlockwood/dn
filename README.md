@@ -12,6 +12,10 @@
 
 `dnview` displays all files, or when an argument like `2019-10` is passed, `~/dn/2019-10*`.
 
+`dnte` edit today's notes in vim.
+
+`dnoe` edit a note in vim for a given date. ie. `dnoe 2019-11-02`
+
 # Example
 
 ```

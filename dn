@@ -8,11 +8,19 @@ dno() {
   echo " * $2" >> ~/dn/$1
 }
 
+dnoe() {
+  vim ~/dn/$1
+}
+
 dnt() {
   echo $(date "+%Y-%m-%d")
   cat ~/dn/$(date "+%Y-%m-%d")
 }
 
+dnte() {
+  vim ~/dn/$(date "+%Y-%m-%d")
+}
+  
 dnview() {
   find ~/dn/$1* -type f -exec basename {} \; -exec cat {} \;
 }
