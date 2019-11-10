@@ -14,7 +14,7 @@
 
 `dnte` edit today's notes in vim.
 
-`dnoe` edit a note in vim for a given date. ie. `dnoe 2019-11-02`
+`dnoe` edit a note in vim for a given date. i.e. `dnoe 2019-11-02`. If no date is passed i.e. `dnoe` then a file selection prompt appears in vim.
 
 # Example
 
@@ -59,6 +59,7 @@ If you want search, my recommendation is that you install a tool like `ripgrep`,
 `mkdir ~/dn`
 
 For bash: `cat dn >> ~/.bashrc`
+
 For zsh: `cat dn >> ~/.zshrc`
 
 Replace with the config file for your shell of choice!
