@@ -23,6 +23,6 @@ dnte() {
   vim $DN_PATH/$(date "+%Y-%m-%d")
 }
   
-dnview() {
+dnv() {
   find $DN_PATH/$1* -type f -exec basename {} \; -exec cat {} \;
 }
